@@ -1,0 +1,24 @@
+TicketMachine ticketMa1 = new TicketMachine(33);
+ticketMa1.refundBalance()
+    returned int 0
+TicketMachine Aylesbury = new TicketMachine(220);
+TicketMachine Aylesbury = new TicketMachine(220);
+TicketMachine Amersham = new TicketMachine(300);
+TicketMachine HighWycombe = new TicketMachine(330);
+TicketMachine Aylesbury = new TicketMachine(220);
+TicketMachine Aylesbury = new TicketMachine(220);
+TicketMachine Amersham = new TicketMachine(300);
+Aylesbury.getPrice()
+    returned int 220
+TicketMachine HighWycombe = new TicketMachine(330);
+TicketMachine Aylesbury = new TicketMachine(220);
+TicketMachine Amersham = new TicketMachine(300);
+TicketMachine HighWycombe = new TicketMachine(350);
+Ticket aylesbury = new Ticket();
+Coin P10 = new Coin();
+Coin P20 = new Coin();
+Coin P50 = new Coin();
+Coin P100 = new Coin();
+Coin P200 = new Coin();
+Ticket alesbury = new Ticket();
+Ticket aylesbury = new Ticket();
