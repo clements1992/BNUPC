@@ -52,7 +52,7 @@ public class TicketMachine
     
     public void insertcoin(Coin coin)
     {
-        balance = coin.pence;
+        //balance = coin.pence;
     }     
     /**
      * Receive an amount of money from a customer.
