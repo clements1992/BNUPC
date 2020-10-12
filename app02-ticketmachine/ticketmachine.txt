@@ -1,9 +1,48 @@
-Ticket amersham = new Ticket();
-Ticket Amersham = new Ticket();
-Ticket Aylesbury = new Ticket();
-Ticket HighWycombe = new Ticket();
-Coin p10 = new Coin(10);
-Coin p20 = new Coin(20);
-Coin p50 = new Coin(50);
-Coin p100 = new Coin(100);
-Coin p200 = new Coin(200);
+TicketMachine Aylesbury = new TicketMachine(220);
+TicketMachine Amersham = new TicketMachine(300);
+TicketMachine HighWycombe = new TicketMachine(330);
+Aylesbury.insertMoney(220);
+Aylesbury.printTicket();
+##################
+# Bluej line
+# Ticket
+# 220 cents.
+##################
+
+Amersham.insertMoney(300);
+Amersham.printTicket();
+##################
+# Bluej line
+# Ticket
+# 300 cents.
+##################
+
+HighWycombe.insertMoney(330);
+HighWycombe.printTicket();
+##################
+# Bluej line
+# Ticket
+# 330 cents.
+##################
+
+Aylesbury.getBalance()
+    returned int 0
+Aylesbury.insertMoney(20);
+Aylesbury.printTicket();
+You must insert at least: 200 more cents.
+Amersham.insertMoney(20);
+Amersham.printTicket();
+You must insert at least: 280 more cents.
+HighWycombe.insertMoney(20);
+HighWycombe.printTicket();
+You must insert at least: 310 more cents.
+Aylesbury.insertMoney(400);
+Aylesbury.printTicket();
+##################
+# Bluej line
+# Ticket
+# 220 cents.
+##################
+
+Aylesbury.refundBalance()
+    returned int 200
