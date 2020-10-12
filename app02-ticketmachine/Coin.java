@@ -8,15 +8,16 @@
 public class Coin
 {
     // instance variables - replace the example below with your own
-    private int x;
+    public int price;
 
     /**
      * Constructor for objects of class Coin
      */
-    public Coin()
+    public Coin(int price)
     {
         // initialise instance variables
-        x = 0;
+        this.price=price;
+        
     }
 
     /**
@@ -25,9 +26,8 @@ public class Coin
      * @param  y  a sample parameter for a method
      * @return    the sum of x and y
      */
-    public int sampleMethod(int y)
+    public int getPrice()
     {
-        // put your code here
-        return x + y;
+        return price;
     }
 }

@@ -49,7 +49,11 @@ public class TicketMachine
     {
         return balance;
     }
-
+    
+    public void insertcoin(Coin coin)
+    {
+        balance = coin.pence;
+    }     
     /**
      * Receive an amount of money from a customer.
      * Check that the amount is sensible.
@@ -109,4 +113,34 @@ public class TicketMachine
         balance = 0;
         return amountToRefund;
     }
+    
+    public void insertCoin(Coin coin){
+        if (coin.getPrice() == 10){
+            System.out.println("You just inserted 10p");
+            balance = balance + coin.getPrice();
+        }
+        else if (coin.getPrice() == 20){
+            System.out.println("You just inserted 20p");
+            balance = balance + coin.getPrice();
+        }
+        else if (coin.getPrice() == 50){
+            System.out.println("You just inserted 50p");
+            balance = balance + coin.getPrice();
+        }
+        else if (coin.getPrice() == 100){
+            System.out.println("You just inserted 100p");
+            balance = balance + coin.getPrice();
+        }
+        else if (coin.getPrice() == 200){
+            System.out.println("You just inserted 200p");
+            balance = balance + coin.getPrice();
+        }
+        else{
+            System.out.println("Please enter 10p, 20p, 50p, £1.00 or £2.00");
+        
+        }
+        System.out.println("Your balance is " + balance);
+    }  
 }
+    
+    
