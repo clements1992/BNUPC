@@ -5,6 +5,8 @@
  * @author Alex Clements
  * @version 09/10/2020
  */
+import java.util.Date;
+
 public class Ticket
 {
     // instance variables - replace the example below with your own
@@ -29,9 +31,15 @@ public class Ticket
      * @param  y  a sample parameter for a method
      * @return    the sum of x and y
      */
-    public void sampleMethod(int y)
-    {
-        // put your code here
-        
+    //public String main()
+    {   //System.out.println(destination);
+    }
+    
+    
+    
+    public static void PrintDate() {
+        Date now = new Date();
+        now.getTime();
+        System.out.println(now);
     }
 }
