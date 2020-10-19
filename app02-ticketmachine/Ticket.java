@@ -2,17 +2,13 @@
 /**
  * Write a description of class Ticket here.
  *
- * @author Alex Clements
- * @version 09/10/2020
+ * @author (your name)
+ * @version (a version number or a date)
  */
-import java.util.Date;
-
 public class Ticket
 {
     // instance variables - replace the example below with your own
-    private String destination;
-    private int cost;
-    private String datePurchased;
+    private int x;
 
     /**
      * Constructor for objects of class Ticket
@@ -20,9 +16,7 @@ public class Ticket
     public Ticket()
     {
         // initialise instance variables
-        this.destination=destination;
-        this.cost=cost;
-        this.datePurchased=datePurchased;
+        x = 0;
     }
 
     /**
@@ -31,15 +25,9 @@ public class Ticket
      * @param  y  a sample parameter for a method
      * @return    the sum of x and y
      */
-    //public String main()
-    {   //System.out.println(destination);
-    }
-    
-    
-    
-    public static void PrintDate() {
-        Date now = new Date();
-        now.getTime();
-        System.out.println(now);
+    public int sampleMethod(int y)
+    {
+        // put your code here
+        return x + y;
     }
 }

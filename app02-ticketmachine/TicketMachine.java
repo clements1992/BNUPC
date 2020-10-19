@@ -11,6 +11,7 @@
  * 
  * Modified by Alex Clements
  */
+import java.util.Date;
 public class TicketMachine
 {
     // The price of a ticket from this machine.
@@ -20,6 +21,12 @@ public class TicketMachine
     // The total amount of money collected by this machine.
     private int total;
 
+    private Ticket aylesburyTicket;
+    private Ticket highwycombeTicket;
+    private Ticket amershamTicket;
+    
+    //private Coin Coins;
+
 
     /**
      * Create a machine that issues tickets of the given price.
@@ -27,9 +34,12 @@ public class TicketMachine
     public TicketMachine(int cost)
 
     {
-        price = cost;
         balance = 0;
         total = 0;
+        
+        aylesburyTicket = new Ticket("Aylesbury", 220);
+        highwycombeTicket = new Ticket ("HighWycombe", 330);
+        amershamTicket = new Ticket ("Amersham", 300);
         
     }
 
@@ -52,95 +62,19 @@ public class TicketMachine
     
     public void insertcoin(Coin coin)
     {
-        //balance = coin.pence;
+        
     }     
     /**
      * Receive an amount of money from a customer.
      * Check that the amount is sensible.
      */
-    public void insertMoney(int amount)
-    {
-        if(amount > 0) 
-        {
-            balance = balance + amount;
-        }
-        else 
-        {
-            System.out.println("Use a positive amount rather than: " +
-                amount);
-        }
-    }
-
-    /**
-     * Print a ticket if enough money has been inserted, and
-     * reduce the current balance by the ticket price. Print
-     * an error message if more money is required.
-     */
-    public void printTicket()
-    {
-        if(balance >= price) 
-        {
-            // Simulate the printing of a ticket.
-            System.out.println("##################");
-            System.out.println("# Bluej line");
-            System.out.println("# Ticket");
-            
-            System.out.println("# " + price + " cents.");
-            System.out.println("##################");
-            System.out.println();
-
-            // Update the total collected with the price.
-            total = total + price;
-            // Reduce the balance by the price.
-            balance = balance - price;
-        }
-        else 
-        {
-            System.out.println("You must insert at least: " +
-                (price - balance) + " more cents.");
-
-        }
-    }
-
-    /**
-     * Return the money in the balance.
-     * The balance is cleared.
-     */
-    public int refundBalance()
-    {
-        int amountToRefund;
-        amountToRefund = balance;
-        balance = 0;
-        return amountToRefund;
-    }
-    
-    public void insertCoin(Coin coin){
+    public void insertCoin(Coin coin) {
         if (coin.getPrice() == 10){
-            System.out.println("You just inserted 10p");
+            System.out.println("you just inserted 10p");
             balance = balance + coin.getPrice();
         }
-        else if (coin.getPrice() == 20){
-            System.out.println("You just inserted 20p");
-            balance = balance + coin.getPrice();
-        }
-        else if (coin.getPrice() == 50){
-            System.out.println("You just inserted 50p");
-            balance = balance + coin.getPrice();
-        }
-        else if (coin.getPrice() == 100){
-            System.out.println("You just inserted 100p");
-            balance = balance + coin.getPrice();
-        }
-        else if (coin.getPrice() == 200){
-            System.out.println("You just inserted 200p");
-            balance = balance + coin.getPrice();
-        }
-        else{
-            System.out.println("Please enter 10p, 20p, 50p, £1.00 or £2.00");
-        
-        }
-        System.out.println("Your balance is " + balance);
-    }  
+    }
 }
+
     
     
