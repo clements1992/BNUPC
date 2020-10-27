@@ -1,33 +1,36 @@
-
+import java.util.ArrayList;
 /**
- * Write a description of class Course here.
- *
- * @author (your name)
- * @version (a version number or a date)
- */
+@author Alex Clements
+@version 27/10/2020
+*/
 public class Course
 {
-    // instance variables - replace the example below with your own
-    private int x;
-
-    /**
-     * Constructor for objects of class Course
-     */
-    public Course()
+    //Name of Course
+    private String title;
+    //Total marks
+    private int currentMarks;
+    //Final grade
+    private String finalGrade;
+    
+    public Module module;
+    
+    //* creates a course with a title, current mark (0) and final drage */
+    public Course(String title)
     {
-        // initialise instance variables
-        x = 0;
+        this.title = title;
+        
+        this.currentMarks = 0;
+        this.finalGrade = null;
     }
-
-    /**
-     * An example of a method - replace this comment with your own
-     *
-     * @param  y  a sample parameter for a method
-     * @return    the sum of x and y
-     */
-    public int sampleMethod(int y)
-    {
-        // put your code here
-        return x + y;
-    }
+    
+    
+    
+   
+    
+    
+    
 }
+    
+    
+   
+    
