@@ -1,0 +1,13 @@
+LabClass co452Lab = new LabClass(3);
+Student Alex = new Student("Alex", "1");
+Student Mat = new Student("Mat", "2");
+Student Oli = new Student("Oli", "3");
+Oli.addCredits(20);
+Mat.addCredits(20);
+Alex.addCredits(20);
+Alex.changeName("Alexander");
+Mat.print();
+Mat
+Student ID2
+    Exception occurred.
+Course Computing = new Course("Computing", "G400");

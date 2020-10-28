@@ -2,41 +2,41 @@
 /**
  * Write a description of class Course here.
  *
- * @Alex Clements - 21922124
+ * @Author Alex Clements - 21922124
  * @version 0.1
  */
 
 
 public class Course
 {
-    // instance variables - replace the example below with your own
-    private int x;
-
-    /**
-     * Constructor for objects of class Course
-     */
-    public Course()
+    //* Code Number of the course */
+    private String codeNumber;
+    //* Title */
+    private String name;
+    
+    public Course(String courseName,String courseCode)
     {
-        // initialise instance variables
-        x = 0;
-    }
-
-    /**
-     * An example of a method - replace this comment with your own
-     *
-     * @param  y  a sample parameter for a method
-     * @return    the sum of x and y
-     */
-    public int sampleMethod(int y)
-    {
-        // put your code here
-        return x + y;
+        codeNumber = courseCode;
+        name = courseName;
     }
     
-    public void printCourse()
+    public String getCodeNumber()
     {
-        System.out.println("printCourse");
+        return codeNumber;
     }
-}
+    
+    public String getCourseName()
+    {
+        return name;
+    }
+
+
+
+
+
+
+
+
+}   
 
    
