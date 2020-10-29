@@ -10,24 +10,29 @@
 public class Course
 {
     //* Code Number of the course */
-    private String codeNumber;
+    private String courseCode;
     //* Title */
-    private String name;
+    private String courseName;
     
     public Course(String courseName,String courseCode)
     {
-        codeNumber = courseCode;
-        name = courseName;
+        this.courseCode = courseCode;
+        this.courseName = courseName;
     }
     
     public String getCodeNumber()
     {
-        return codeNumber;
+        return courseCode;
     }
     
     public String getCourseName()
     {
-        return name;
+        return courseName;
+    }
+    
+    public void print()
+    {
+        System.out.println("Course = " + courseCode + " Course Name = " + courseName);
     }
 
 

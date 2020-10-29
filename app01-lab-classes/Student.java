@@ -83,6 +83,7 @@ public class Student{
     {   
         course = newCourse;
     }
+    
     /**
      * Print the student's name and ID number to the output terminal.
      */
@@ -90,6 +91,6 @@ public class Student{
     {
         System.out.println(name);
         System.out.println("Student ID" + id);
-        System.out.println("Course" + course.getCourseName() + course.getCodeNumber());
+        course.print();
     }
 }
