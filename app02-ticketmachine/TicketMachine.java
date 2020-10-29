@@ -25,13 +25,13 @@ public class TicketMachine
     private Ticket highwycombeTicket;
     private Ticket amershamTicket;
     
-    //private Coin Coins;
+    
 
 
     /**
      * Create a machine that issues tickets of the given price.
      */
-    public TicketMachine(int cost)
+    public TicketMachine()
 
     {
         balance = 0;
