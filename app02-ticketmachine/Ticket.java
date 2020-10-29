@@ -2,8 +2,8 @@
 /**
  * Write a description of class Ticket here.
  *
- * @author (your name)
- * @version (a version number or a date)
+ * @author Alex Clements
+ * @version 19/10/2020
  */
 public class Ticket
 {
