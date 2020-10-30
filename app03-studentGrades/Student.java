@@ -16,73 +16,55 @@ public class Student
     // the amount of credits for study taken so far
     private int credits;
     //Course name
-    public Course course;
-    
-    
+    private Course course;
+
     public Student(String fullName, String studentID)
     {
+        //Constructor that initializes each variable
         name = fullName;
         id = studentID;
         credits = 0;
         course = null;
         
     }
-
     
-    
+    //enroll a student on a course
     public void enrollStudent(Course course)
     {
         this.course = course;
     }
     
-    /**
-     * Set a new name for this student.
-     */
+    //change a students name
     public void changeName(String replacementName)
     {
         name = replacementName;
     }
 
-    /**
-     * Returns the student ID of this student.
-     */
+    //Return the student ID
     public String getStudentID()
     {
         return id;
     }
 
-    /**
-     * Add some credit points to the student's accumulated credits.
-     */
+    //Add credit points
     public void addCredits(int additionalPoints)
     {
         credits += additionalPoints;
     }
 
-    
-    /**
-     * Return the number of credit points this student has accumulated.
-     */
+    //Get credits
     public int getCredits()
     {
         return credits;
     }
 
-    /**
-     * Return the login name of this student. The login name is a combination
-     * of the first four characters of the student's name and the first three
-     * characters of the student's ID number.
-     */
+    //Get login name
     public String getLoginName()
     {
         return name.substring(0,4) + id.substring(0,3);
     }
     
-    
-    
-    /**
-     * Print the student's name and ID number to the output terminal.
-     */
+    //print
     public void print()
     {
         System.out.println(name + ", student ID: " + id + ", credits: " + credits);
