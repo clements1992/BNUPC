@@ -1,0 +1,31 @@
+Student Alex = new Student("Alex", "1234");
+Alex.addCredits(20);
+Alex.changeName("Sarah");
+Alex.getCredits()
+    returned int 20
+Alex.getLoginName()
+    returned String "Sara123"
+Alex.getStudentID()
+    returned String "1234"
+Alex.print();
+Sarah, student ID: 1234, credits: 20
+Course PC = new Course("Computing", "0000");
+PC.addMark(20, 1);
+PC.addMark(20, 2);
+PC.addMark(20, 3);
+PC.addMark(20, 4);
+PC.convertToGrade(80)
+    returned Object A
+PC.print();
+Course title Computing Current Marks 0
+Module pc = new Module("Module1", "G400");
+pc.awardMark(20);
+pc.getCode()
+    returned String "G400"
+pc.getMark()
+    returned int 20
+pc.getTitle()
+    returned String "Module1"
+pc.print();
+Code Number G400Module Title Module1 Marks 20
+Alex.addCredits(20);
