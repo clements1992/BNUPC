@@ -1,0 +1,10 @@
+Course course1 = new Course("PC", "module1");
+course1.convertToGrade(20)
+    returned Object F
+Course course2 = new Course("pc", "module2");
+course2.print();
+Course title pc Current Marks 0
+course2.convertToGrade(40)
+    returned Object D
+course2.print();
+Course title pc Current Marks 0
