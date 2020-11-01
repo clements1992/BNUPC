@@ -1,0 +1,19 @@
+Student Alex = new Student("Alex", "1111");
+Alex.addCredits(20);
+Alex.changeName("Alexander");
+Alex.getCredits()
+    returned int 20
+Alex.getLoginName()
+    returned String "Alex111"
+Alex.print();
+Alexander, student ID: 1111, credits: 20
+Module pc = new Module("PC", "G400");
+pc.awardMark(20);
+pc.getCode()
+    returned String "G400"
+pc.getTitle()
+    returned String "PC"
+pc.print();
+Code Number G400Module Title PC Marks 20
+Course Computing = new Course("Computing", "2345");
+Alex.enrollStudent(Computing);
