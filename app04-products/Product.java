@@ -79,7 +79,7 @@ public class Product
 
     /**
      * Sell one of these products.
-     * An error is reported if there appears to be no stock.
+     * An error is reported if there appears to be no stock. IF QUANTITY IS LESS THAN 0 IT WILL STATE ITEM OUT OF STOCK
      */
     public void sellOne()
     {
@@ -92,5 +92,10 @@ public class Product
             System.out.println(
                 "Attempt to sell an out of stock item: " + name);
         }
+    }
+    
+    public void setName(String name)
+    {
+        this.name = name;
     }
 }

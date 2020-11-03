@@ -9,18 +9,18 @@ import java.util.ArrayList;
  */
 public class StockManager
 {
-    // A list of the products.
+    //An array list of products
     private ArrayList<Product> stock;
-
-    /**
+    
+   /**
      * Initialise the stock manager.
      */
     public StockManager()
     {
         stock = new ArrayList<>();
     }
-
-    /**
+    
+   /**
      * Add a product to the list.
      * @param item The item to be added.
      */
@@ -37,6 +37,12 @@ public class StockManager
      */
     public void delivery(int id, int amount)
     {
+        Product product = findProduct(id);
+        if(product !=null)
+        {
+        product.increaseQuantity(amount);
+        System.out.println("Product Delivered " + product);
+    }
     }
     
     /**
@@ -46,25 +52,34 @@ public class StockManager
      */
     public Product findProduct(int id)
     {
+        for(Product product : stock)
+        {
+            if(product.getID() == id)
+                {
+                    return product;
+                }
+        }
         return null;
     }
     
-    /**
-     * Locate a product with the given ID, and return how
-     * many of this item are in stock. If the ID does not
-     * match any product, return zero.
-     * @param id The ID of the product.
-     * @return The quantity of the given product in stock.
-     */
-    public int numberInStock(int id)
+    //THIS DOESN'T WORK RN
+   public int numberInStock(int id)
     {
         return 0;
     }
-
-    /**
-     * Print details of all the products.
+    
+   /**
+     * Prints all products and heading
      */
-    public void printProductDetails()
+    public void printAllProducts()
     {
+        System.out.println();
+        System.out.println("Alex's Stock List");
+        System.out.println("#################");
+        System.out.println();
+        for(Product product : stock)
+        {
+            System.out.println(product);
+        }
     }
 }
