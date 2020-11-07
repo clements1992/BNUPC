@@ -3,12 +3,12 @@
  * The demonstration becomes properly functional as
  * the StockManager class is completed.
  * 
- * @author David J. Barnes and Michael Kölling.
- * @version 2016.02.29
+ * @author Alex Clements
+ * @version 03/11/2020
  */
 public class StockDemo
 {
-    // The stock manager.
+    // The stock manager
     private StockManager manager;
 
     /**
@@ -19,31 +19,38 @@ public class StockDemo
     {
         this.manager = manager;
         
-        manager.addProduct(new Product(132, "Fila Trainers"));
-        manager.addProduct(new Product(37,  "Nike Trainers"));
-        manager.addProduct(new Product(23,  "Ellesse Trainers"));
-        manager.addProduct(new Product(24,  "Gucci Trainer"));
-        manager.addProduct(new Product(132, "Adidas Trainers"));
-        manager.addProduct(new Product(38,  "Puma Trainers"));
-        manager.addProduct(new Product(26,  "Converse Trainers"));
-        manager.addProduct(new Product(27,  "Vans Trainer"));
-        manager.addProduct(new Product(28,  "Dickies Trainers"));
-        manager.addProduct(new Product(29,  "Asics Trainer"));
+        manager.addProduct(new Product(101,  "Nike F40 Trainers"));
+        manager.addProduct(new Product(102,  "Nike XTRA Trainers"));
+        manager.addProduct(new Product(103,  "Ellesse YK Trainers"));
+        manager.addProduct(new Product(104,  "Nike Trainer"));
+        manager.addProduct(new Product(105,  "Adidas Trainers"));
+        manager.addProduct(new Product(106,  "Puma Trainers"));
+        manager.addProduct(new Product(107,  "Converse Trainers"));
+        manager.addProduct(new Product(108,  "Vans Trainer"));
+        manager.addProduct(new Product(109,  "Dickies Trainers"));
+        manager.addProduct(new Product(110,  "Asics Trainer"));
+    }
+    
+    /* will do all the testing for me */
+    public void runDemo()
+    {
+        manager.printAllProducts();
+        demoDeliverProducts();
+        manager.printAllProducts();
+        manager.getLowStockLevel();
     }
     
     /**
-     * Provide a very simple demonstration of how a StockManager
-     * might be used. Details of one product are shown, the
-     * product is restocked, and then the details are shown again.
+     * Adds one to the quantity each time
      */
-    public void demo()
+    private void demoDeliverProducts()
     {
-        // Show details of all of the products.
-        manager.printAllProducts();
-        // Take delivery of 5 items of one of the products.
-        manager.delivery(132, 5);
-        
-        manager.printAllProducts();
+        int quantity = 0;
+        for(int id = 101; id <= 110; id++)
+        {
+           quantity++;
+           manager.deliver(id, quantity); 
+        }  
     }
     
     /**
@@ -60,7 +67,7 @@ public class StockDemo
             System.out.println(product.toString());
         }
     }
-    
+
     /**
      * Sell one of the given item.
      * Show the before and after status of the product.
@@ -69,7 +76,6 @@ public class StockDemo
     public void sellProduct(int id)
     {
         Product product = getProduct(id);
-        
         if(product != null) 
         {
             showDetails(id);

@@ -1,8 +1,8 @@
 /**
  * Model some details of a product sold by a company.
  * 
- * @author David J. Barnes and Michael Kölling.
- * @version 2016.02.29
+ * @author Alex Clements
+ * @version 03/11/2020
  */
 public class Product
 {
@@ -94,8 +94,18 @@ public class Product
         }
     }
     
-    public void setName(String name)
+    public void changeName(String newName)
     {
-        this.name = name;
+        this.name = newName;
+        
+        System.out.println("You have changed the name to : " + newName);
+    }
+    
+    //* should change the name of a product by the ID but id doesnt work
+    public void changeNamebyID(String newName, int id)
+    {
+        this.name = newName;
+        
+        System.out.println("You have changed the name to : " + newName);
     }
 }
