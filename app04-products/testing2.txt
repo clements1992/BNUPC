@@ -1,0 +1,7 @@
+StockManager manager = new StockManager();
+StockDemo stockDem1 = new StockDemo(manager);
+manager.searchByName("Nik");
+101: Nike F40 Trainers stock level: 0
+102: Nike XTRA Trainers stock level: 0
+104: Nike Trainer stock level: 0
+manager.searchByName("Alex");

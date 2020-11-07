@@ -1,0 +1,81 @@
+StockManager manager = new StockManager();
+StockDemo stockDem2 = new StockDemo(manager);
+Product product1 = new Product(111, "Sketchers Trainers");
+Product product2 = new Product(112, "Yeezy Trainers");
+manager.deliver(101, 10);
+Product Delivered 101: Fila F40 Trainers stock level: 10
+manager.deliver(102, 4);
+Product Delivered 102: Nike XTRA Trainers stock level: 4
+stockDem2.sellProduct(101);
+101: Fila F40 Trainers stock level: 10
+101: Fila F40 Trainers stock level: 9
+stockDem2.sellProduct(102);
+102: Nike XTRA Trainers stock level: 4
+102: Nike XTRA Trainers stock level: 3
+manager.renameProduct(102, "Nike Extra Trainer");
+You have changed the name to : Nike Extra Trainer
+You have successfully renamed Nike XTRA Trainers to Nike Extra Trainer
+manager.deleteProduct(102);
+You have deleted 102: Nike Extra Trainer stock level: 3manager.printAllProducts();
+
+Alex's Stock List
+#################
+
+101: Fila F40 Trainers stock level: 9
+103: Ellesse YK Trainers stock level: 0
+104: Gucci Trainer stock level: 0
+105: Adidas Trainers stock level: 0
+106: Puma Trainers stock level: 0
+107: Converse Trainers stock level: 0
+108: Vans Trainer stock level: 0
+109: Dickies Trainers stock level: 0
+110: Asics Trainer stock level: 0
+manager.numberInStock(104)
+    returned int 0
+manager.getLowStockLevel()
+The following products are low in stock 103: Ellesse YK Trainers stock level: 0
+The following products are low in stock 104: Gucci Trainer stock level: 0
+The following products are low in stock 105: Adidas Trainers stock level: 0
+The following products are low in stock 106: Puma Trainers stock level: 0
+The following products are low in stock 107: Converse Trainers stock level: 0
+The following products are low in stock 108: Vans Trainer stock level: 0
+The following products are low in stock 109: Dickies Trainers stock level: 0
+The following products are low in stock 110: Asics Trainer stock level: 0
+    returned Object null
+manager.deliver(105, 10);
+Product Delivered 105: Adidas Trainers stock level: 10
+manager.getLowStockLevel()
+The following products are low in stock 103: Ellesse YK Trainers stock level: 0
+The following products are low in stock 104: Gucci Trainer stock level: 0
+The following products are low in stock 106: Puma Trainers stock level: 0
+The following products are low in stock 107: Converse Trainers stock level: 0
+The following products are low in stock 108: Vans Trainer stock level: 0
+The following products are low in stock 109: Dickies Trainers stock level: 0
+The following products are low in stock 110: Asics Trainer stock level: 0
+    returned Object null
+StockManager manager = new StockManager();
+StockDemo stockDem1 = new StockDemo(manager);
+manager.deliver(106, 10);
+Product Delivered 106: Puma Trainers stock level: 10
+manager.deliver(107, 10);
+Product Delivered 107: Converse Trainers stock level: 10
+manager.deliver(108, 10);
+Product Delivered 108: Vans Trainer stock level: 10
+manager.deliver(109, 10);
+Product Delivered 109: Dickies Trainers stock level: 10
+stockDem1.sellProduct(106);
+106: Puma Trainers stock level: 10
+106: Puma Trainers stock level: 9
+stockDem1.sellProduct(107);
+107: Converse Trainers stock level: 10
+107: Converse Trainers stock level: 9
+stockDem1.sellProduct(108);
+108: Vans Trainer stock level: 10
+108: Vans Trainer stock level: 9
+stockDem1.sellProduct(109);
+109: Dickies Trainers stock level: 10
+109: Dickies Trainers stock level: 9
+stockDem1.sellProduct(101);
+101: Fila F40 Trainers stock level: 0
+Attempt to sell an out of stock item: Fila F40 Trainers
+101: Fila F40 Trainers stock level: 0
