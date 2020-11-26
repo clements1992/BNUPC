@@ -28,9 +28,17 @@ public class InputReader
      */
     public String getInput()
     {
-        System.out.print("> ");         // print prompt
+        System.out.print("Please Type your command: "); // print prompt
         String inputLine = reader.nextLine();
 
         return inputLine;
+    }
+    
+    public int getInt(String prompt)
+    {
+        System.out.println(prompt); // print prompt
+        int number = reader.nextInt();
+
+        return number;
     }
 }
