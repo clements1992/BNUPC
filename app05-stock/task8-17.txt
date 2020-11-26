@@ -1,0 +1,200 @@
+******************************
+ Stock Management Application 
+    App05: by Alex Clements
+******************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    PrintAll:   Print all products
+    Quit:       Quit the program
+    Sell:       Sell a product
+    Deliver:    Accept a delivery
+    Search:     Search for a product
+    Low-Stock:  Print products with low stock
+    Re-Stock:   Re-stock all low stock items to a minimum level
+    Rename:     Change a products name
+
+Please Type your command: sell
+Sell a Product
+
+Please enter the product ID 
+
+102
+Please enter the amount 
+
+-2
+102: Nike XTRA Trainers stock level: 6
+102: Nike XTRA Trainers stock level: 5
+This product has been sold: 102
+******************************
+ Stock Management Application 
+    App05: by Alex Clements
+******************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    PrintAll:   Print all products
+    Quit:       Quit the program
+    Sell:       Sell a product
+    Deliver:    Accept a delivery
+    Search:     Search for a product
+    Low-Stock:  Print products with low stock
+    Re-Stock:   Re-stock all low stock items to a minimum level
+    Rename:     Change a products name
+
+Please Type your command: ******************************
+ Stock Management Application 
+    App05: by Alex Clements
+******************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    PrintAll:   Print all products
+    Quit:       Quit the program
+    Sell:       Sell a product
+    Deliver:    Accept a delivery
+    Search:     Search for a product
+    Low-Stock:  Print products with low stock
+    Re-Stock:   Re-stock all low stock items to a minimum level
+    Rename:     Change a products name
+
+Please Type your command: printall
+
+Alex's Stock List
+#################
+
+102: Nike XTRA Trainers stock level: 5
+103: Ellesse YK Trainers stock level: 0
+104: Nike Trainer stock level: 0
+105: Adidas Trainers stock level: 0
+106: Puma Trainers stock level: 0
+107: Converse Trainers stock level: 0
+108: Vans Trainer stock level: 0
+109: Dickies Trainers stock level: 0
+110: Asics Trainer stock level: 0
+111: Apple Trainers stock level: 0
+112: Samsung Trainers stock level: 0
+113: Apple Iphone 11 stock level: 0
+114: Apple Iphone 12 stock level: 0
+115: Motorola G9 Plus stock level: 0
+116:  stock level: 0
+
+******************************
+ Stock Management Application 
+    App05: by Alex Clements
+******************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    PrintAll:   Print all products
+    Quit:       Quit the program
+    Sell:       Sell a product
+    Deliver:    Accept a delivery
+    Search:     Search for a product
+    Low-Stock:  Print products with low stock
+    Re-Stock:   Re-stock all low stock items to a minimum level
+    Rename:     Change a products name
+
+Please Type your command: search
+Enter word: 
+Please Type your command: nike
+102: Nike XTRA Trainers stock level: 5
+104: Nike Trainer stock level: 0
+******************************
+ Stock Management Application 
+    App05: by Alex Clements
+******************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    PrintAll:   Print all products
+    Quit:       Quit the program
+    Sell:       Sell a product
+    Deliver:    Accept a delivery
+    Search:     Search for a product
+    Low-Stock:  Print products with low stock
+    Re-Stock:   Re-stock all low stock items to a minimum level
+    Rename:     Change a products name
+
+Please Type your command: lowstock
+******************************
+ Stock Management Application 
+    App05: by Alex Clements
+******************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    PrintAll:   Print all products
+    Quit:       Quit the program
+    Sell:       Sell a product
+    Deliver:    Accept a delivery
+    Search:     Search for a product
+    Low-Stock:  Print products with low stock
+    Re-Stock:   Re-stock all low stock items to a minimum level
+    Rename:     Change a products name
+
+Please Type your command: restock
+All products less than 3 will been restocked
+Please enter the restock amount
+8
+Product Delivered 103: Ellesse YK Trainers stock level: 8
+The following products are low in stock 103: Ellesse YK Trainers stock level: 8
+Product Delivered 104: Nike Trainer stock level: 8
+The following products are low in stock 104: Nike Trainer stock level: 8
+Product Delivered 105: Adidas Trainers stock level: 8
+The following products are low in stock 105: Adidas Trainers stock level: 8
+Product Delivered 106: Puma Trainers stock level: 8
+The following products are low in stock 106: Puma Trainers stock level: 8
+Product Delivered 107: Converse Trainers stock level: 8
+The following products are low in stock 107: Converse Trainers stock level: 8
+Product Delivered 108: Vans Trainer stock level: 8
+The following products are low in stock 108: Vans Trainer stock level: 8
+Product Delivered 109: Dickies Trainers stock level: 8
+The following products are low in stock 109: Dickies Trainers stock level: 8
+Product Delivered 110: Asics Trainer stock level: 8
+The following products are low in stock 110: Asics Trainer stock level: 8
+Product Delivered 111: Apple Trainers stock level: 8
+The following products are low in stock 111: Apple Trainers stock level: 8
+Product Delivered 112: Samsung Trainers stock level: 8
+The following products are low in stock 112: Samsung Trainers stock level: 8
+Product Delivered 113: Apple Iphone 11 stock level: 8
+The following products are low in stock 113: Apple Iphone 11 stock level: 8
+Product Delivered 114: Apple Iphone 12 stock level: 8
+The following products are low in stock 114: Apple Iphone 12 stock level: 8
+Product Delivered 115: Motorola G9 Plus stock level: 8
+The following products are low in stock 115: Motorola G9 Plus stock level: 8
+Product Delivered 116:  stock level: 8
+The following products are low in stock 116:  stock level: 8
+******************************
+ Stock Management Application 
+    App05: by Alex Clements
+******************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    PrintAll:   Print all products
+    Quit:       Quit the program
+    Sell:       Sell a product
+    Deliver:    Accept a delivery
+    Search:     Search for a product
+    Low-Stock:  Print products with low stock
+    Re-Stock:   Re-stock all low stock items to a minimum level
+    Rename:     Change a products name
+
+Please Type your command: ******************************
+ Stock Management Application 
+    App05: by Alex Clements
+******************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    PrintAll:   Print all products
+    Quit:       Quit the program
+    Sell:       Sell a product
+    Deliver:    Accept a delivery
+    Search:     Search for a product
+    Low-Stock:  Print products with low stock
+    Re-Stock:   Re-stock all low stock items to a minimum level
+    Rename:     Change a products name
+
+Please Type your command: 
