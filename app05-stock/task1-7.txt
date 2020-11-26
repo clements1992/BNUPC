@@ -1,0 +1,200 @@
+    Low-Stock:  Print products with low stock
+    Re-Stock:   Re-stock all low stock items to a minimum level
+    Rename:     Change a products name
+
+Please Type your command: add
+Add a new Product
+
+Please enter the ID of the product
+Please Type your command: 113
+Please enter the name of the product:
+Please Type your command: Apple Iphone 11
+You have added this 113: Apple Iphone 11 stock level: 0
+******************************
+ Stock Management Application 
+    App05: by Alex Clements
+******************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    PrintAll:   Print all products
+    Quit:       Quit the program
+    Sell:       Sell a product
+    Deliver:    Accept a delivery
+    Search:     Search for a product
+    Low-Stock:  Print products with low stock
+    Re-Stock:   Re-stock all low stock items to a minimum level
+    Rename:     Change a products name
+
+Please Type your command: add
+Add a new Product
+
+Please enter the ID of the product
+Please Type your command: 114
+Please enter the name of the product:
+Please Type your command: Apple Iphone 12
+You have added this 114: Apple Iphone 12 stock level: 0
+******************************
+ Stock Management Application 
+    App05: by Alex Clements
+******************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    PrintAll:   Print all products
+    Quit:       Quit the program
+    Sell:       Sell a product
+    Deliver:    Accept a delivery
+    Search:     Search for a product
+    Low-Stock:  Print products with low stock
+    Re-Stock:   Re-stock all low stock items to a minimum level
+    Rename:     Change a products name
+
+Please Type your command: add
+Add a new Product
+
+Please enter the ID of the product
+Please Type your command: 115
+Please enter the name of the product:
+Please Type your command: Motorola G9 Plus
+You have added this 115: Motorola G9 Plus stock level: 0
+******************************
+ Stock Management Application 
+    App05: by Alex Clements
+******************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    PrintAll:   Print all products
+    Quit:       Quit the program
+    Sell:       Sell a product
+    Deliver:    Accept a delivery
+    Search:     Search for a product
+    Low-Stock:  Print products with low stock
+    Re-Stock:   Re-stock all low stock items to a minimum level
+    Rename:     Change a products name
+
+Please Type your command: printall
+
+Alex's Stock List
+#################
+
+101: Nike F40 Trainers stock level: 0
+102: Nike XTRA Trainers stock level: 0
+103: Ellesse YK Trainers stock level: 0
+104: Nike Trainer stock level: 0
+105: Adidas Trainers stock level: 0
+106: Puma Trainers stock level: 0
+107: Converse Trainers stock level: 0
+108: Vans Trainer stock level: 0
+109: Dickies Trainers stock level: 0
+110: Asics Trainer stock level: 0
+111: Apple Trainers stock level: 0
+112: Samsung Trainers stock level: 0
+113: Apple Iphone 11 stock level: 0
+114: Apple Iphone 12 stock level: 0
+115: Motorola G9 Plus stock level: 0
+
+******************************
+ Stock Management Application 
+    App05: by Alex Clements
+******************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    PrintAll:   Print all products
+    Quit:       Quit the program
+    Sell:       Sell a product
+    Deliver:    Accept a delivery
+    Search:     Search for a product
+    Low-Stock:  Print products with low stock
+    Re-Stock:   Re-stock all low stock items to a minimum level
+    Rename:     Change a products name
+
+Please Type your command: add
+Add a new Product
+
+Please enter the ID of the product
+Please Type your command: 115
+Please enter the name of the product:
+Please Type your command: thisshouldntwork
+This product has a duplicate ID
+******************************
+ Stock Management Application 
+    App05: by Alex Clements
+******************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    PrintAll:   Print all products
+    Quit:       Quit the program
+    Sell:       Sell a product
+    Deliver:    Accept a delivery
+    Search:     Search for a product
+    Low-Stock:  Print products with low stock
+    Re-Stock:   Re-stock all low stock items to a minimum level
+    Rename:     Change a products name
+
+Please Type your command: add
+Add a new Product
+
+Please enter the ID of the product
+Please Type your command: 116
+Please enter the name of the product:
+Please Type your command: 
+You have added this 116:  stock level: 0
+******************************
+ Stock Management Application 
+    App05: by Alex Clements
+******************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    PrintAll:   Print all products
+    Quit:       Quit the program
+    Sell:       Sell a product
+    Deliver:    Accept a delivery
+    Search:     Search for a product
+    Low-Stock:  Print products with low stock
+    Re-Stock:   Re-stock all low stock items to a minimum level
+    Rename:     Change a products name
+
+Please Type your command: printall
+
+Alex's Stock List
+#################
+
+101: Nike F40 Trainers stock level: 0
+102: Nike XTRA Trainers stock level: 0
+103: Ellesse YK Trainers stock level: 0
+104: Nike Trainer stock level: 0
+105: Adidas Trainers stock level: 0
+106: Puma Trainers stock level: 0
+107: Converse Trainers stock level: 0
+108: Vans Trainer stock level: 0
+109: Dickies Trainers stock level: 0
+110: Asics Trainer stock level: 0
+111: Apple Trainers stock level: 0
+112: Samsung Trainers stock level: 0
+113: Apple Iphone 11 stock level: 0
+114: Apple Iphone 12 stock level: 0
+115: Motorola G9 Plus stock level: 0
+116:  stock level: 0
+
+******************************
+ Stock Management Application 
+    App05: by Alex Clements
+******************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    PrintAll:   Print all products
+    Quit:       Quit the program
+    Sell:       Sell a product
+    Deliver:    Accept a delivery
+    Search:     Search for a product
+    Low-Stock:  Print products with low stock
+    Re-Stock:   Re-stock all low stock items to a minimum level
+    Rename:     Change a products name
+
+Please Type your command: 
