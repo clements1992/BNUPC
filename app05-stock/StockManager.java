@@ -32,10 +32,10 @@ public class StockManager
         }
         else
         {
-        stock.add(item);
-        System.out.println("You have added this " + item);
-        return true;
-    }
+            stock.add(item);
+            System.out.println("You have added this " + item);
+            return true;
+        }
     }
 
     /**
@@ -58,7 +58,7 @@ public class StockManager
         }
     }
 
-    /* Search by name, converts user input to lower case */
+    /** Search by name, converts user input to lower case **/
     public void searchByName(String name)
     {
         for(Product product : stock)
@@ -87,7 +87,7 @@ public class StockManager
         return null;
     }
 
-    /* Renames product */
+    /** Renames product **/
     public void renameProduct(int id,String newProductName)
     {
         Product product = findProduct(id);
@@ -103,7 +103,7 @@ public class StockManager
         }
     }
 
-    /* Deletes a product based on the findProduct method in the Product class */
+    /** Deletes a product based on the findProduct method in the Product class **/
     public void removeProduct(int id)
     {
         Product product = findProduct(id);
@@ -116,11 +116,11 @@ public class StockManager
         }
     }
 
-    /* Uses the array list to find products with less than 3 in stock */
+    /** Uses the array list to find products with less than 3 in stock **/
     public ArrayList<Product> getLowStockLevel(int restockAmount) 
     {
         ArrayList<Product> result = new ArrayList<Product>();
-        
+
         for (Product product : stock)
         {
             result.add(product);
@@ -133,7 +133,7 @@ public class StockManager
         }
         return result;
     }
-    
+
     /**
      * Prints all products and heading
      */
@@ -143,19 +143,19 @@ public class StockManager
         System.out.println("Alex's Stock List");
         System.out.println("#################");
         System.out.println();
-        
-       if(stock.size() == 0)
-       {
-           System.out.println("out of stock");
-       }
-       else
-       {
-           for(Product product : stock)
-           {
-             System.out.println(product);  
-           }
-       }
-       
-       System.out.println();
+
+        if(stock.size() == 0)
+        {
+            System.out.println("out of stock");
+        }
+        else
+        {
+            for(Product product : stock)
+            {
+                System.out.println(product);  
+            }
+        }
+
+        System.out.println();
     }
 }
