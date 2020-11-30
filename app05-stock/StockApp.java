@@ -11,9 +11,6 @@ public class StockApp
 {   
     public final String ADD = "add";
     
-    
-    
-    
     public final int FIRST_ID = 200;
     // Use to get user input
     private InputReader input;
@@ -60,6 +57,7 @@ public class StockApp
         }
     }
 
+    /** Executes menu choices **/
     public void executeMenuChoice(String choice)
     {
         if(choice.equals(ADD))
@@ -107,28 +105,31 @@ public class StockApp
         }
     }
     
+    /** Search for a product **/
     public void searchProduct()
     {
-        System.out.println("Enter word: ");
+        System.out.println("Enter the word that you want to search for : ");
         String word = input.getInput();
         
         manager.searchByName(word);
     }
 
+    /** Delivers a product **/
     public void deliverProduct()
     {
-        System.out.println("Deliver a Product");
+        System.out.println("Deliver a Product: ");
         System.out.println();
 
-        int id = input.getInt("Please enter the product ID \n");
+        int id = input.getInt("Please enter the product ID: \n");
         
-        int amount = input.getInt("Please enter the amount \n");
+        int amount = input.getInt("Please enter the amount: \n");
         
         manager.deliver(id, amount);
         
         System.out.println("This product has been delivered: " + id);
     }
     
+    /** Sells a product **/
     public void sellProduct()
     {
         System.out.println("Sell a Product");
@@ -143,6 +144,14 @@ public class StockApp
         System.out.println("This product has been sold: " + id);
     }
     
+    /**
+    public void renameProduct()
+    {   
+        manager.renameProduct(id);
+    }
+    
+    **/
+    
     /** This works. Gets any items with less than 3 in stock **/
     public void lowStock()
     {
@@ -150,6 +159,7 @@ public class StockApp
         manager.getLowStockLevel(0);
     }
 
+    /** Restocks amount **/
     public void restock()
     {
         System.out.println("All products less than 3 will been restocked");
@@ -171,17 +181,25 @@ public class StockApp
 
         System.out.println("Please enter the name of the product:");
         String name = input.getInput();
-
+        
+        if (input==null)
+        {   
+            System.out.println("Please enter a name");
+        }
+        
+        else{
         Product product = new Product(id, name);
         manager.addProduct(product);
     }
+    }
 
+    /** Removes a product **/
     public void removeProduct()
     {   
-        System.out.println("Remove a Product");
+        System.out.println("Remove a Product: ");
         System.out.println();
 
-        System.out.println("Please enter the ID:");
+        System.out.println("Please enter the ID: ");
         String number = input.getInput();
 
         int id = Integer.parseInt(number);
@@ -210,6 +228,7 @@ public class StockApp
         System.out.println();        
     }
 
+    /** Prints all products **/
     public void printAllProducts()
     {
         manager.printAllProducts();
