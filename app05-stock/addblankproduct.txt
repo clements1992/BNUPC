@@ -1,0 +1,176 @@
+Program.main();
+You have added this 101: Nike F40 Trainers stock level: 0
+You have added this 102: Nike XTRA Trainers stock level: 0
+You have added this 103: Ellesse YK Trainers stock level: 0
+You have added this 104: Nike Trainer stock level: 0
+You have added this 105: Adidas Trainers stock level: 0
+You have added this 106: Puma Trainers stock level: 0
+You have added this 107: Converse Trainers stock level: 0
+You have added this 108: Vans Trainer stock level: 0
+You have added this 109: Dickies Trainers stock level: 0
+You have added this 110: Asics Trainer stock level: 0
+******************************
+ Stock Management Application 
+    App05: by Alex Clements
+******************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    PrintAll:   Print all products
+    Quit:       Quit the program
+    Sell:       Sell a product
+    Deliver:    Accept a delivery
+    Search:     Search for a product
+    Low-Stock:  Print products with low stock
+    Re-Stock:   Re-stock all low stock items to a minimum level
+    Rename:     Change a products name
+
+> 
+add
+Add a new Product
+
+Please enter the ID of the product
+> 
+456
+Please enter the name of the product:
+> 
+ 
+Please enter a valid word: 
+ 
+Please enter a valid word: 
+
+
+quit
+quit
+ok
+ok
+quit
+    VM terminated.
+Program.main();
+You have added this 101: Nike F40 Trainers stock level: 0
+You have added this 102: Nike XTRA Trainers stock level: 0
+You have added this 103: Ellesse YK Trainers stock level: 0
+You have added this 104: Nike Trainer stock level: 0
+You have added this 105: Adidas Trainers stock level: 0
+You have added this 106: Puma Trainers stock level: 0
+You have added this 107: Converse Trainers stock level: 0
+You have added this 108: Vans Trainer stock level: 0
+You have added this 109: Dickies Trainers stock level: 0
+You have added this 110: Asics Trainer stock level: 0
+******************************
+ Stock Management Application 
+    App05: by Alex Clements
+******************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    PrintAll:   Print all products
+    Quit:       Quit the program
+    Sell:       Sell a product
+    Deliver:    Accept a delivery
+    Search:     Search for a product
+    Low-Stock:  Print products with low stock
+    Re-Stock:   Re-stock all low stock items to a minimum level
+    Rename:     Change a products name
+
+> 
+add
+Add a new Product
+
+Please enter the ID of the product
+> 
+145
+Please enter the name of the product:
+> 
+yes
+You have added this 145: yes stock level: 0
+******************************
+ Stock Management Application 
+    App05: by Alex Clements
+******************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    PrintAll:   Print all products
+    Quit:       Quit the program
+    Sell:       Sell a product
+    Deliver:    Accept a delivery
+    Search:     Search for a product
+    Low-Stock:  Print products with low stock
+    Re-Stock:   Re-stock all low stock items to a minimum level
+    Rename:     Change a products name
+
+> 
+printall
+
+Alex's Stock List
+#################
+
+101: Nike F40 Trainers stock level: 0
+102: Nike XTRA Trainers stock level: 0
+103: Ellesse YK Trainers stock level: 0
+104: Nike Trainer stock level: 0
+105: Adidas Trainers stock level: 0
+106: Puma Trainers stock level: 0
+107: Converse Trainers stock level: 0
+108: Vans Trainer stock level: 0
+109: Dickies Trainers stock level: 0
+110: Asics Trainer stock level: 0
+145: yes stock level: 0
+
+******************************
+ Stock Management Application 
+    App05: by Alex Clements
+******************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    PrintAll:   Print all products
+    Quit:       Quit the program
+    Sell:       Sell a product
+    Deliver:    Accept a delivery
+    Search:     Search for a product
+    Low-Stock:  Print products with low stock
+    Re-Stock:   Re-stock all low stock items to a minimum level
+    Rename:     Change a products name
+
+> 
+quit
+Program.main();
+You have added this 101: Nike F40 Trainers stock level: 0
+You have added this 102: Nike XTRA Trainers stock level: 0
+You have added this 103: Ellesse YK Trainers stock level: 0
+You have added this 104: Nike Trainer stock level: 0
+You have added this 105: Adidas Trainers stock level: 0
+You have added this 106: Puma Trainers stock level: 0
+You have added this 107: Converse Trainers stock level: 0
+You have added this 108: Vans Trainer stock level: 0
+You have added this 109: Dickies Trainers stock level: 0
+You have added this 110: Asics Trainer stock level: 0
+******************************
+ Stock Management Application 
+    App05: by Alex Clements
+******************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    PrintAll:   Print all products
+    Quit:       Quit the program
+    Sell:       Sell a product
+    Deliver:    Accept a delivery
+    Search:     Search for a product
+    Low-Stock:  Print products with low stock
+    Re-Stock:   Re-stock all low stock items to a minimum level
+    Rename:     Change a products name
+
+> 
+add
+Add a new Product
+
+Please enter the ID of the product
+> 
+120
+Please enter the name of the product:
+> 
+ 
+Please enter a valid word: 
