@@ -28,10 +28,21 @@ public class InputReader
      */
     public String getInput()
     {
-        System.out.print("Please Type your command: "); // print prompt
-        String inputLine = reader.nextLine();
-
-        return inputLine;
+        boolean isValidString = true;
+        String inputLine;
+        System.out.println("> ");
+        
+        do{
+            inputLine = reader.nextLine();
+            if(inputLine.equals(" ")) {
+             System.out.println("Please enter a valid word: ");
+             isValidString = false;
+            }
+            
+            
+        }
+        while(isValidString == false);
+            return inputLine;
     }
     
     public int getInt(String prompt)
